@@ -1,6 +1,5 @@
 # 🌍 Earthquake Magnitude & Depth Prediction using Deep Learning
 
-Predicting the magnitude and depth of earthquakes using only their geographic coordinates (latitude and longitude) with state-of-the-art deep learning models.
 
 ![Earthquake Prediction Map](https://github.com/PANWAR-MAYANK/SeismicNet/blob/main/Images/Map.png)
 
