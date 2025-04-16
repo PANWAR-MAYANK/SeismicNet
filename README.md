@@ -31,6 +31,45 @@ Both target variables are continuous.
 
 ---
 
+
+## 📁 Dataset Description
+
+The dataset used in this project is sourced from the [USGS Earthquake Database on Kaggle](https://www.kaggle.com/datasets/usgs/earthquake-database/data). It provides a comprehensive record of global seismic activity, detailing essential information about each earthquake event.
+
+- **Total Records**: 23,595 earthquake events
+- **Total Columns**: 22 features per record
+- **Data Range**: Covers events from the early 20th century up to recent years
+- **Format**: CSV (Comma-Separated Values)
+- 
+
+### 🎯 Target Variables
+- **Magnitude**: A continuous variable typically ranging from 0 to 10 on the Richter scale. It quantifies the energy released during an earthquake.
+- **Depth**: A continuous variable representing the distance (in kilometers) from the Earth's surface to the earthquake's hypocenter. It spans from shallow depths (< 70 km) to deep-focus earthquakes (> 300 km).
+
+### 🧠 Input Features
+- **Latitude**: Continuous values from -90° to 90°, indicating the earthquake's north-south location.
+- **Longitude**: Continuous values from -180° to 180°, denoting the earthquake's east-west location.
+
+ ### 🧾 Sample Columns in the Dataset
+| Column Name      | Description                                           |
+|------------------|-------------------------------------------------------|
+| `Date`           | Date of the earthquake event                          |
+| `Time`           | Time of the event                                     |
+| `Latitude`       | Epicenter latitude (used as input)                   |
+| `Longitude`      | Epicenter longitude (used as input)                  |
+| `Depth`          | Earthquake depth in kilometers (used as target)      |
+| `Magnitude`      | Richter scale magnitude (used as target)             |
+| `Location Name`  | Descriptive location name                            |
+| `Type`           | Earthquake type (e.g., Earthquake, Explosion, etc.)  |
+
+These geographic coordinates are the sole input to the deep learning models, aiming to predict the corresponding magnitude and depth values. The minimalistic input design helps evaluate how spatial positioning alone can inform seismic intensity and depth estimations.
+
+This dataset's structure makes it ideal for exploring spatial relationships in geophysical data and applying advanced neural architectures like LSTMs and dense networks for real-world regression tasks.
+
+
+
+---
+
 ## 🧠 Models Implemented
 
 ### 🔹 Neural Network Model 1
@@ -121,12 +160,6 @@ Both target variables are continuous.
 
 ---
 
-## 📁 Dataset
-
-- **Source**: [USGS Earthquake Database on Kaggle](https://www.kaggle.com/datasets/usgs/earthquake-database/data)
-- Contains earthquake data including location, magnitude, depth, and event descriptions.
-
----
 
 ## 🌟 Why This Project Matters
 
