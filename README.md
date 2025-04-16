@@ -2,7 +2,7 @@
 
 Predicting the magnitude and depth of earthquakes using only their geographic coordinates (latitude and longitude) with state-of-the-art deep learning models.
 
-![Earthquake Prediction Map](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/2010_Earthquake_Epicenters.png/640px-2010_Earthquake_Epicenters.png)
+![Earthquake Prediction Map](https://github.com/PANWAR-MAYANK/SeismicNet/blob/main/Images/Map.png)
 
 ---
 
