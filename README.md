@@ -124,9 +124,6 @@ This dataset's structure makes it ideal for exploring spatial relationships in g
 - Earthquake locations color-coded by predicted magnitude/depth.
 - Implemented using `Cartopy` and `Plotly`.
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/your-username/your-repo/main/assets/magnitude_map.png" width="600" />
-</div>
 
 ---
 
