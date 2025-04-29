@@ -165,6 +165,6 @@ Understanding and predicting seismic activity is a high-impact application of de
 
 ## 🤝 Key Contributors
 
-[Saurabh Agastya](https://www.linkedin.com/in/saurabh-a66b04273/)
-[Mohd. Imaad](https://www.linkedin.com/in/mohd-imaad-b40311257/)
+- [Saurabh Agastya](https://www.linkedin.com/in/saurabh-a66b04273/)
+- [Mohd. Imaad](https://www.linkedin.com/in/mohd-imaad-b40311257/)
 
